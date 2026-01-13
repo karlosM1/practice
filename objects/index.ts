@@ -86,3 +86,22 @@ let cat: DogAndCatUnion = {
   name: "Mittens",
   purrs: true,
 };
+
+type Caterer = {
+  name: string;
+  address: string;
+  phone: number;
+};
+
+type Seats = {
+  [key: string]: string;
+};
+
+type Airplane = {
+  model: string;
+  flightNumber: number;
+  timeOfDeparture: Date;
+  timeOfArrival: Date;
+  caterer: Caterer;
+  seats: Seats;
+};
