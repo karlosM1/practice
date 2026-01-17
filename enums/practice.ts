@@ -13,13 +13,13 @@ enum StatusEnum {
   Pending = "pending",
 }
 
-type User = {
-  id: number;
-  name: string;
-  status: StatusEnum;
-};
-const Status: User = {
-  id: 1,
-  name: "John Doe",
-  status: StatusEnum.Active,
-};
+// type User = {
+//   id: number;
+//   name: string;
+//   status: StatusEnum;
+// };
+// const Status: User = {
+//   id: 1,
+//   name: "John Doe",
+//   status: StatusEnum.Active,
+// };
